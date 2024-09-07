@@ -26,9 +26,11 @@
 
 Soal 1
 Modifikasi kode:
+
 ![kode soal no 1](../image/week2_1_code.png)
 
 Hasil run:
+
 ![kode result no 1](../image/week2_1_result.png)
 
 Soal 2
