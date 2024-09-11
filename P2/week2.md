@@ -127,3 +127,7 @@ Kakas DartPad adalah kakas online yang bagus untuk belajar dan bereksperimen den
 
 **Main function**
 Dart menggunakan function dan method untuk memisahkan kode. Function main dalam bahasa Dart adalah titik awal eksekusi kode dalam setiap aplikasi Dart. Fungsi main ini wajib ada di setiap aplikasi Dart agar Dart VM tahu di mana harus memulai menjalankan kode.
+
+# Soal 4
+link presentasi: 
+https://docs.google.com/presentation/d/1d7q8xxtClaH0OCfEMqCnhqRDBf66hBL9/edit#slide=id.p1
