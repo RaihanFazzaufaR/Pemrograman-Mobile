@@ -81,6 +81,7 @@ Hasil:
 
 # Praktikum 2: Menerapkan Perulangan "while" dan "do-while"
 **Langkah 1:**
+
 Ketik atau salin kode program berikut ke dalam fungsi main().
 
 ![practice 2 step 1 image](../image/week3_P2_1.png)
@@ -90,9 +91,10 @@ Kode:
 
 ![practice 2 step 1 answer](../image/week3_P2_1_answer.png)
 
-Kode ini ada kode program yang menggunakan loop while untuk melakukan perulangan hingga variabel yang ditugaskan memenuhi kondisi while. (pada kasus ini variabel yang ditugaskan adalah variabel counter)
+Kode ini adalah kode program yang menggunakan loop while untuk melakukan perulangan hingga variabel yang ditugaskan memenuhi kondisi while. (pada kasus ini variabel yang ditugaskan adalah variabel counter)
 
 **Langkah 2:**
+
 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
 
 
@@ -110,6 +112,7 @@ Hasil:
 
 
 **Langkah 3:**
+
 Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
 
 ![practice 2 step 3 image](../image/week3_P2_3.png)
@@ -129,17 +132,58 @@ Dikarenakan variabel counter sudah terdefinisi kode ini tidak terjadi error.
 
 # Praktikum 3: Menerapkan Perulangan "for" dan "break-continue"
 **Langkah 1:**
+
 Ketik atau salin kode program berikut ke dalam fungsi main().
 
 ![practice 3 step 1 image](../image/week3_P3_1.png)
 
+Kode:
+
+![practice 3 step 1 answer](../image/week3_P3_1_answer.png)
+
+Kode ini adalah kode program yang menggunakan loop berupa for. loop for akan melakukan perulangan dengan memastikan variabel yang ditugaskan masih memenuhi kondisi dari for itu sendiri. 
+
+(pada kasus ini loop for seharusnya berjalan dengan variabel yang ditugaskan berupa variabel index yang bernilai awal 10. loop for berjalan dengan syarat variabel index memiliki value kurang dari 27. Kemudian loop for akan menambah index sebanyak 1 seiring perulangan terjadi)
+
 **Langkah 2:**
+
 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
 
+Bila menggunakan kode langkah satu tanpa memperbaikinya akan terjadi error. Error tersebut berupa variabel index yang tidak terdefinisi karena variabel index tidak memiliki tipe data. Apabila sudah menambah tipe data loop for akan terus berulang dikarenakan value masih tetap pada nilai 10. Oleh karena itu, diperlukan penambahan tulisan ++ pada bagian increment di dalam for.
+
+Perbaikan kode:
+
+![practice 3 step 2 answer](../image/week3_P3_answer.png)
+
+Hasil:
+
+![practice 3 step 2 result](../image/week3_P3_result.png)
+
 **Langkah 3:**
+
 Tambahkan kode program berikut di dalam for-loop, lalu coba eksekusi (Run) kode Anda.
 
-![practice 3 step 3 image](../image/week3_P3_2.png)
+![practice 3 step 3 image](../image/week3_P3_3.png)
+
+Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan for dan break-continue.
+
+Kode:
+
+![practice 3 step 3 answer1](../image/week3_P3_3_answer1.png)
+
+Hasil:
+
+![practice 3 step 3 result1](../image/week3_P3_3_result1.png)
+
+Apabila dijalankan kode program ini tidak mengalami error namun tidak menghasilkan apapun (hasil kosong). Hasil kosong ini disebabkan karena penggunaan OR (||) pada statement if sehingga apabila salah satu kondisi terpenuhi maka statement if dengan kondisi tersebut yang akan dijalankan. Kita bisa mengubah penggunaan OR tersebut menjadi AND untuk mendapatkan hasil yang lebih memuaskan.
+
+Perubahan kode:
+
+![practice 3 step 3 answer2](../image/week3_P3_3_answer2.png)
+
+Hasil:
+
+![practice 3 step 3 result1](../image/week3_P3_3_result2.png)
 
 # Soal 2
 Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai 201 menggunakan Dart. Ketika bilangan prima ditemukan, maka tampilkan nama lengkap dan NIM Anda.
