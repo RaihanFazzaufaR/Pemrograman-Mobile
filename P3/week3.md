@@ -30,17 +30,49 @@ Silakan selesaikan Praktikum 1 sampai 3, lalu dokumentasikan berupa screenshot h
 # Praktikum 1: Menerapkan Control Flows ("if/else")
 
 **Langkah 1:**
+
 Ketik atau salin kode program berikut ke dalam fungsi main().
+
 
 ![practice 1 step 1 image](../image/week3_P1_1.png)
 
+
+Kode: 
+
+![practice 1 step 1 answer](../image/week3_P1_1_answer.png)
+
+Kode ini adalah kode program sederhana yang menggunakan conditional statement berupa if-else yang bertujuan untuk memeriksa value dari sebuah variabel. (pada kasus ini variabel yang diperiksa adalah variabel test)
+
 **Langkah 2:**
+
 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan!
 
+
+Hasil Eksekusi:
+
+![practice 1 step 1 answer](../image/week3_P1_2_answer.png)
+
+Berdasarkan hasil diatas kondisi yang terpenuhi pada conditional statement adalah kondisi variabel test yang bernilai "test2" sehingga dijalankanlah perintah untuk print tulisan "Test2". Begitu juga dengan kondisi if kedua yang sama terpenuhi karena memiliki kondisi yang sama dengan if sebelumnya sehingga dijalankan perintah untuk print tulisan "Test2 Again"
+
 **Langkah 3:**
+
 Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
 
 ![practice 1 step 3 image](../image/week3_P1_2.png)
+
+Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan if/else.
+
+
+Kode:
+
+![practice 1 step 3 image](../image/week3_P1_3_answer1.png)
+
+apabila dijalankan kode ini akan menghasilkan error yang menyatakan bahwa tipe data String tidak bisa ditugaskan ke variabel dengan tipe boolean. Untuk menghilangkan error tipe data String beserta valuenya harus diganti dengan menggunakan tipe data yang tepat yaitu bool serta value berupa false atau true.
+
+Kode Setelah Perbaikan:
+
+![practice 1 step 3 image](../image/week3_P1_3_answer2.png)
+
 
 # Praktikum 2: Menerapkan Perulangan "while" dan "do-while"
 **Langkah 1:**

@@ -1,15 +1,24 @@
-void main(){
-  String test = "test2";
-  if (test == "test1"){
-    print("Test 1");
-  } else if (test == "test2"){
-    print("Test 2");
-  } else {
-    print("Something else");
-  }
+void main() {
+  // String test = "test2";
+  // if (test == "test1"){
+  //   print("Test1");
+  // } else if (test == "test2"){
+  //   print("Test2");
+  // } else {
+  //   print("Something else");
+  // }
 
-  test = "true";
-  if(test == "true"){
+  // if(test == "test2") print("Test2 again");
+
+  // // langkah 3 (sebelum perubahan)
+  // String test = "true";
+  // if (test) {
+  //   print("Kebenaran");
+  // }
+
+  // // Langkah 3 (setelah perubahan)
+  bool test = true;
+  if (test) {
     print("Kebenaran");
   }
 }
