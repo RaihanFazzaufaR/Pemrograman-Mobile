@@ -153,11 +153,11 @@ Bila menggunakan kode langkah satu tanpa memperbaikinya akan terjadi error. Erro
 
 Perbaikan kode:
 
-![practice 3 step 2 answer](../image/week3_P3_answer.png)
+![practice 3 step 2 answer](../image/week3_P3_2_answer.png)
 
 Hasil:
 
-![practice 3 step 2 result](../image/week3_P3_result.png)
+![practice 3 step 2 result](../image/week3_P3_2_result.png)
 
 **Langkah 3:**
 
@@ -187,6 +187,14 @@ Hasil:
 
 # Soal 2
 Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai 201 menggunakan Dart. Ketika bilangan prima ditemukan, maka tampilkan nama lengkap dan NIM Anda.
+
+Kode Program:
+
+![Task 2 code](../image/week3_T2_code.png)
+
+Hasil:
+
+![Task 2 result](../image/week3_T2_result.png)
 
 # Soal 3
 Kumpulkan berupa link commit repo GitHub pada tautan yang telah disediakan di grup Telegram!
