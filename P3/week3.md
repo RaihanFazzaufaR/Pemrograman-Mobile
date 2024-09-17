@@ -50,7 +50,7 @@ Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jela
 
 Hasil Eksekusi:
 
-![practice 1 step 1 answer](../image/week3_P1_2_answer.png)
+![practice 1 step 2 answer](../image/week3_P1_2_answer.png)
 
 Berdasarkan hasil diatas kondisi yang terpenuhi pada conditional statement adalah kondisi variabel test yang bernilai "test2" sehingga dijalankanlah perintah untuk print tulisan "Test2". Begitu juga dengan kondisi if kedua yang sama terpenuhi karena memiliki kondisi yang sama dengan if sebelumnya sehingga dijalankan perintah untuk print tulisan "Test2 Again"
 
@@ -58,20 +58,24 @@ Berdasarkan hasil diatas kondisi yang terpenuhi pada conditional statement adala
 
 Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
 
-![practice 1 step 3 image](../image/week3_P1_2.png)
+![practice 1 step 3 image](../image/week3_P1_3.png)
 
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan if/else.
 
 
 Kode:
 
-![practice 1 step 3 image](../image/week3_P1_3_answer1.png)
+![practice 1 step 3 answer1](../image/week3_P1_3_answer1.png)
 
 apabila dijalankan kode ini akan menghasilkan error yang menyatakan bahwa tipe data String tidak bisa ditugaskan ke variabel dengan tipe boolean. Untuk menghilangkan error tipe data String beserta valuenya harus diganti dengan menggunakan tipe data yang tepat yaitu bool serta value berupa false atau true.
 
 Kode Setelah Perbaikan:
 
-![practice 1 step 3 image](../image/week3_P1_3_answer2.png)
+![practice 1 step 3 answer2](../image/week3_P1_3_answer2.png)
+
+
+Hasil:
+![practice 1 step 3 result](../image/week3_P1_3_result.png)
 
 
 # Praktikum 2: Menerapkan Perulangan "while" dan "do-while"
@@ -80,13 +84,37 @@ Ketik atau salin kode program berikut ke dalam fungsi main().
 
 ![practice 2 step 1 image](../image/week3_P2_1.png)
 
+
+Kode:
+
+![practice 2 step 1 answer](../image/week3_P2_1_answer.png)
+
+Kode ini ada kode program yang menggunakan loop while untuk melakukan perulangan hingga variabel yang ditugaskan memenuhi kondisi while. (pada kasus ini variabel yang ditugaskan adalah variabel counter)
+
 **Langkah 2:**
 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
+
+
+![practice 2 step 2 result1](../image/week3_P2_2_result1.png)
+
+apabila dijalankan akan muncul error karena variabel counter belum terdefinisi. Untuk menghindari error perlu ditambahkan variabel bernama counter serta valuenya sebelum kode perulangan while tersebut.
+
+Perbaikan Kode:
+
+![practice 2 step 2 answer](../image/week3_P2_2_answer.png)
+
+Hasil:
+![practice 2 step 2 result2](../image/week3_P2_2_result2.png)
+
 
 **Langkah 3:**
 Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
 
 ![practice 2 step 3 image](../image/week3_P2_2.png)
+
+Kode:
+
+![practice 2 step 3 answer](../image/week3_P2_2.png)
 
 # Praktikum 3: Menerapkan Perulangan "for" dan "break-continue"
 **Langkah 1:**
