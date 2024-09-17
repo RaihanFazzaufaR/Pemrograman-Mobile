@@ -75,6 +75,7 @@ Kode Setelah Perbaikan:
 
 
 Hasil:
+
 ![practice 1 step 3 result](../image/week3_P1_3_result.png)
 
 
@@ -104,17 +105,27 @@ Perbaikan Kode:
 ![practice 2 step 2 answer](../image/week3_P2_2_answer.png)
 
 Hasil:
+
 ![practice 2 step 2 result2](../image/week3_P2_2_result2.png)
 
 
 **Langkah 3:**
 Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
 
-![practice 2 step 3 image](../image/week3_P2_2.png)
+![practice 2 step 3 image](../image/week3_P2_3.png)
+
+Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan do-while.
 
 Kode:
 
-![practice 2 step 3 answer](../image/week3_P2_2.png)
+![practice 2 step 3 answer](../image/week3_P2_3_answer.png)
+
+Hasil:
+
+![practice 2 step 3 result](../image/week3_P2_3_result.png)
+
+Dikarenakan variabel counter sudah terdefinisi kode ini tidak terjadi error.
+
 
 # Praktikum 3: Menerapkan Perulangan "for" dan "break-continue"
 **Langkah 1:**
