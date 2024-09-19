@@ -28,11 +28,11 @@
 
 # Modifikasi kode:
 
-![kode soal no 1](../image/week2_T1_code.png)
+![kode soal no 1](../image/P2/week2_T1_code.png)
 
 # Hasil run:
 
-![kode result no 1](../image/week2_T1_result.png)
+![kode result no 1](../image/P2/week2_T1_result.png)
 
 # Soal 2
 
