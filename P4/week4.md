@@ -1,3 +1,27 @@
+<table>
+    <thead>
+        <th style="text-align: center;" colspan="2">Pertemuan 2</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Nama</td>
+            <td>Raihan Fazzaufa Rasendriya</td>
+        </tr>
+        <tr>
+            <td>NIM</td>
+            <td>2241720201</td>
+        </tr>
+        <tr>
+            <td>Kelas</td>
+            <td>TI-3G</td>
+        </tr>
+        <tr>
+            <td>Absen</td>
+            <td>22</td>
+        </tr>
+    </tbody>
+</table>
+
 # Tugas Praktikum
 
 # Soal 1
@@ -20,15 +44,33 @@ assert(list[1] == 1);
 print(list[1]);
 ```
 
+!['practice_1_1'](../image/P4/praktikum1_1.png)
+
+Kode ini merupakan sebuah program dart sederhana yang menggunakan list terlihat pada insialisasi pada baris kedua `var list = [1, 2, 3];`. fungsi `assert` digunakan untuk melakukan debugging dengan memeriksa kondisi tertentu saat menjalankan program. Apabila kondisi fungsi assert tidak terpenuhi maka program akan berhenti berjalan.
+
 **Langkah 2**
 
 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan!
+
+!['practice_1_2'](../image/P4/praktikum1_2.png)
+
+Saat dieksekusi akan menampilkan angka 3 kemudian 2 kemudian 1. Angka 3 menyatakan panjang list. Angka 2 menyatakan nilai dari `list[1]`. Angka 1 mneyatakan nilai `list[1]` yang telah diubah dari 2 ke 1. 
 
 **Langkah 3**
 
 Ubah kode pada langkah 1 menjadi variabel final yang mempunyai index = 5 dengan default value = null. Isilah nama dan NIM Anda pada elemen index ke-1 dan ke-2. Lalu print dan capture hasilnya.
 
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki.
+
+Kode:
+
+!['practice_1_3_code'](../image/P4/praktikum1_3_code.png)
+
+Hasil:
+
+!['practice_1_3_code'](../image/P4/praktikum1_3_result.png)
+
+Ketika menggunakan `final List<dynamic> list = list.filled(5, null);` Dart mengharuskan kita untuk mendeklarasikan list sebagai `final` sehingga tidak bisa mengubah referensi list, tetapi tetap bisa mengubah isinya. Pada kode ini terlihat bahwa list yang dibuat berukuran 5 dan diisi nilai null di dalamnya. Fungsi dari `List<dynamic>` dalam Dart adalah untuk membuat sebuah list yang elemen-elemennya dapat berisi nilai dari berbagai tipe data sehingga tidak terjadi error saat melakukan perubahan data dengan tipe yang berbeda. 
 
 # Praktikum 2: Eksperimen Tipe Data Set
 
@@ -41,9 +83,17 @@ var halogens = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};
 print(halogens);
 ```
 
+!['practice_2_1'](../image/P4/praktikum2_1.png)
+
+Kode ini melakukan inisialisasi sebuah set di dart terlihat pada kode `var halogens = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};`. Sesuai dengan kode set ini berisi lima buah elemen string.
+
 **Langkah 2**
 
 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
+
+!['practice_2_2'](../image/P4/praktikum2_2.png)
+
+Apabila kode tersebut dieksekusi akan menghasilkan hasil seperti gambar. hasil ini didapat dari penggunaan print pada baris ketiga kode langkah pertama.
 
 **Langkah 3**
 
@@ -62,6 +112,36 @@ print(names3);
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan ketiga variabel tersebut. Tambahkan elemen nama dan NIM Anda pada kedua variabel Set tersebut dengan dua fungsi berbeda yaitu .add() dan .addAll(). Untuk variabel Map dihapus, nanti kita coba di praktikum selanjutnya.
 
 Dokumentasikan code dan hasil di console, lalu buat laporannya.
+
+Kode Awal:
+
+!['practice_2_3_code1'](../image/P4/praktikum2_3_code1.png)
+
+Hasil: 
+
+!['practice_2_3_result1'](../image/P4/praktikum2_3_result1.png)
+
+Terlihat saat eksekusi hasil terlihat kosong hanya berisi kurung saja ({}) namun tidak error. Apabila ingin hasil ada isinya bisa merubah kode sebagai berikut:
+
+!['practice_2_3_code2'](../image/P4/praktikum2_3_code2.png)
+
+Hasil:
+
+!['practice_2_3_result2'](../image/P4/praktikum2_3_result2.png)
+
+Kode dengan Tambahan elemen:
+
+!['practice_2_3_code3'](../image/P4/praktikum2_3_code3.png)
+
+Hasil:
+
+!['practice_2_3_result3'](../image/P4/praktikum2_3_result3.png)
+
+Kode dengan tambahan elemen tersebut memiliki dua data tipe Set yaitu`names1` dan `names2`. - `names1` adalah sebuah Set dengan tipe data `String`, dideklarasikan menggunakan var dengan inisialisasi kosong (`<String>{}`).
+
+- `names2` juga merupakan Set dengan tipe `String`, dideklarasikan secara eksplisit menggunakan `Set<String>`.
+
+fungsi metode `add` adalah untuk menambahkan hanya satu elemen ke dalam Set untuk setiap pemanggilan metode ini. Sedangkan metode `addall` diugnakan untuk menambahkan beberapa elemen sekaligus ke dalam set.
 
 # Praktikum 3: Eksperimen Tipe Data Maps
 
@@ -86,6 +166,8 @@ var nobleGases = {
 print(gifts);
 print(nobleGases);
 ```
+
+!['practice_3_1'](../image/P4/praktikum3_1.png)
 
 **Langkah 2**
 
@@ -124,6 +206,8 @@ print(list1);
 print(list2);
 print(list2.length);
 ```
+
+!['practice_4_1'](../image/P4/praktikum4_1.png)
 
 **Langkah 2**
 
@@ -189,6 +273,8 @@ Ketik atau salin kode program berikut ke dalam fungsi `main()`.
 var record = ('first', a: 2, b: true, 'last');
 print(record)
 ```
+
+!['practice_4_1'](../image/P4/praktikum4_1.png)
 
 **Langkah 2**
 
