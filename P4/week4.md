@@ -387,6 +387,16 @@ Kode:
 
 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
 
+Tidak terjadi error namun cara inisialisasi variabel `record` yang menggunakan tipe data record terkadang kurang jelas. Oleh karena itu, kode ini bisa diganti menjadi map.
+
+Perbaikan kode:
+
+!['practice_5_2_code1'](../image/P4/praktikum5_2_code1.png)
+
+Hasil:
+
+!['practice_5_2_result1'](../image/P4/praktikum5_2_result1.png)
+
 **Langkah 3**
 
 Tambahkan kode program berikut di luar scope `void main()`, lalu coba eksekusi (Run) kode Anda.
@@ -400,6 +410,17 @@ Tambahkan kode program berikut di luar scope `void main()`, lalu coba eksekusi (
 
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Gunakan fungsi `tukar()` di dalam `main()` sehingga tampak jelas proses pertukaran value field di dalam Records.
 
+Tidak ada error saat dijalankan dan tidak tampil apapun karena fungsi tersebut tidak dipakai. 
+Penggunaan fungsi tukar() di dalam main():
+
+!['practice_5_3_code1'](../image/P4/praktikum5_3_code1.png)
+
+Hasil Penggunaan:
+
+!['practice_5_3_result1'](../image/P4/praktikum5_3_result1.png)
+
+Kode ini mendefinisikan fungsi `tukar` yang menerima sebuah tuple yang terdiri dari dua integer dan mengembalikannya dalam urutan terbalik.
+
 **Langkah 4**
 
 Tambahkan kode program berikut di dalam scope `void main()`, lalu coba eksekusi (Run) kode Anda.
@@ -411,6 +432,16 @@ print(mahasiswa);
 ```
 
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Inisialisasi field nama dan NIM Anda pada variabel record `mahasiswa` di atas. Dokumentasikan hasilnya dan buat laporannya!
+
+Kode ini apabila langsung dieksekusi akan terjadi error. Error tersebut karena variabel `mahasiswa` tidak boleh null. Berikut adalah perbaikan kode tersebut:
+
+!['practice_5_4_code1'](../image/P4/praktikum5_4_code1.png)
+
+Hasil:
+
+!['practice_5_4_result1'](../image/P4/praktikum5_4_result1.png)
+
+Kode tersebut melakukan inisialisai sebuah variabel mahasiswa dengan tipe `tuple (String, int)` yang berarti menyimpan dua elemen yaitu `String` dan `int`. Elemen tersebut setelah perbaikan telah terisi menggunakan nilai `'Raihan Fazzaufa Rasendriya'` dan `2241720201`.
 
 **Langkah 5**
 
@@ -426,6 +457,26 @@ print(mahasiswa2.$2); // Prints 'last'
 ```
 
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Gantilah salah satu isi record dengan nama dan NIM Anda, lalu dokumentasikan hasilnya dan buat laporannya!
+
+Hasil:
+
+!['practice_5_5_result'](../image/P4/praktikum5_5_result.png)
+
+Saat dieksekusi tidak terjadi error kode berjalan dengan baik.
+
+Kode dengan penggantian isi record:
+
+!['practice_5_5_code1'](../image/P4/praktikum5_5_code1.png)
+
+Hasil:
+
+!['practice_5_5_result'](../image/P4/praktikum5_5_result.png)
+
+Kode ini melakukan inisialisasi sebuah `tuple` dengan nama `mahasiswa2` dengan kombinasi elemen yang terindeks dan diberi nama. `tuple` ini berisi empat elemen yaitu:
+- `'Raihan Fazzaufa Rasendriya'` yang sebelumnya bernilai `'first'` yang bisa diakses melalui `.$1`.
+- `2241720201` yang sebelumnya bernilai `2` yang bisa diakses melalui `.a` (melalui nama).
+- `true` yang bisa diakses melalui `.b` (melalui nama).
+- `'last'` yang bisa diakses melalui `.$2`.
 
 # Soal 2
 Jelaskan yang dimaksud Functions dalam bahasa Dart!
