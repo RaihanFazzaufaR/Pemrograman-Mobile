@@ -44,6 +44,8 @@ assert(list[1] == 1);
 print(list[1]);
 ```
 
+Kode:
+
 !['practice_1_1'](../image/P4/praktikum1_1.png)
 
 Kode ini merupakan sebuah program dart sederhana yang menggunakan list terlihat pada insialisasi pada baris kedua `var list = [1, 2, 3];`. fungsi `assert` digunakan untuk melakukan debugging dengan memeriksa kondisi tertentu saat menjalankan program. Apabila kondisi fungsi assert tidak terpenuhi maka program akan berhenti berjalan.
@@ -82,6 +84,8 @@ Ketik atau salin kode program berikut ke dalam fungsi `main()`.
 var halogens = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};
 print(halogens);
 ```
+
+Kode:
 
 !['practice_2_1'](../image/P4/praktikum2_1.png)
 
@@ -137,7 +141,8 @@ Hasil:
 
 !['practice_2_3_result3'](../image/P4/praktikum2_3_result3.png)
 
-Kode dengan tambahan elemen tersebut memiliki dua data tipe Set yaitu`names1` dan `names2`. - `names1` adalah sebuah Set dengan tipe data `String`, dideklarasikan menggunakan var dengan inisialisasi kosong (`<String>{}`).
+Kode dengan tambahan elemen tersebut memiliki dua data tipe Set yaitu`names1` dan `names2`. 
+- `names1` adalah sebuah Set dengan tipe data `String`, dideklarasikan menggunakan var dengan inisialisasi kosong (`<String>{}`).
 
 - `names2` juga merupakan Set dengan tipe `String`, dideklarasikan secara eksplisit menggunakan `Set<String>`.
 
@@ -167,11 +172,19 @@ print(gifts);
 print(nobleGases);
 ```
 
+Kode:
+
 !['practice_3_1'](../image/P4/praktikum3_1.png)
+
+Kode ini melakukan inisialisasi data tipe Map berupa `gifts` dan `nobleGases`. gifts menggunakan string sebagai kunci seperti `'first'` dan `'second'` dan mencampur tipe data nilainya, yaitu `string` berupa `('partridge', 'turtledoves')` dan `integer` berupa `1`. nobleGases menggunakan angka sebagai kunci seperti `2, 10, 18`, dengan nilai yang juga bervariasi antara string berupa `'helium', 'neon'` dan `integer` berupa `2`.
 
 **Langkah 2**
 
 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
+
+!['practice_3_2'](../image/P4/praktikum3_2.png)
+
+Apabila dieksekusi kode ini akan menampilkan isi dari variabe; map yang telah dibuat. hasil tersebut didapatkan dari `print` yang ditulis pada kode.
 
 **Langkah 3**
 
@@ -191,7 +204,27 @@ nobleGases[18] = 'argon';
 
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki.
 
+Kode:
+
+!['practice_3_3_code1'](../image/P4/praktikum3_3_code1.png)
+
+Hasil:
+
+!['practice_3_3_result1'](../image/P4/praktikum3_3_result1.png)
+
+Saat dieksekusi terjadi perubahan pada isi dari variabel map `gifts` dan `nobleGases`. Untuk variabel map `mhs1` dan `mhs2` tidak ada isi karena masih belum diberikan sebuah elemen (nilai) di dalamnya.
+
 Tambahkan elemen nama dan NIM Anda pada tiap variabel di atas (gifts, nobleGases, mhs1, dan mhs2). Dokumentasikan hasilnya dan buat laporannya!
+
+Kode:
+
+!['practice_3_3_code2'](../image/P4/praktikum3_3_code2.png)
+
+Hasil:
+
+!['practice_3_3_result2'](../image/P4/praktikum3_3_result2.png)
+
+Untuk menambahkan elemen nama dan NIM pada tiap variabel perlu ditambahkan key pada [] suatu varibel dan valuenya. Untuk variabel `gifts` dan `mhs1` menggunakan key dengan tipe `string` dan value dengan tipe `string`. Untuk variabel `nobleGases` dan `mhs2` terutama `mhs2` menggunakan key dengan tipe `int` dan value dengan tipe `string`.
 
 # Praktikum 4: Eksperimen Tipe Data List: Spread dan Control-flow Operators
 
@@ -207,11 +240,19 @@ print(list2);
 print(list2.length);
 ```
 
+Kode:
+
 !['practice_4_1'](../image/P4/praktikum4_1.png)
+
+Kode ini melakukan inisialisasi variabel list berupa `list` dan `list2`. list berisi tiga elemen yaitu `[1, 2, 3]` sedangkan list2 berisi 4 elemen yaitu `0` diikuti oleh isi dari variabel `list`.
 
 **Langkah 2**
 
 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
+
+!['practice_4_2'](../image/P4/praktikum4_2.png)
+
+Sat dieksekusi kode akan menampilkan isi dari variabel `list` dan `list2` selain itu kode juga akan menampilkan panjang variabel `list2` sesuai dengan `print` pada kode yang telah dibuat.
 
 **Langkah 3**
 
@@ -228,6 +269,29 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki.
 
 Tambahkan variabel list berisi NIM Anda menggunakan Spread Operators. Dokumentasikan hasilnya dan buat laporannya!
 
+
+Apabila menambahkan kode tersebut dan menjalankannya akan terjadi error. Berikut adalah perbaikan kode tersebut:
+
+Perbaikan Kode:
+
+!['practice_4_3_code1'](../image/P4/praktikum4_3_code1.png)
+
+Hasil Perbaikan:
+
+!['practice_4_3_result1'](../image/P4/praktikum4_3_result1.png)
+
+Perbaikan kode adalah berupa penambahan tipe data sebelum nama variabel `list1` penambahan tersebut berupa tipe `dynamic` (`var` juga bisa namun lebih baik `dynamic`).
+
+Kode dengan tambahan variabel:
+
+!['practice_4_3_code2'](../image/P4/praktikum4_3_code2.png)
+
+Hasil dengan tambahan variabel:
+
+!['practice_4_3_result2'](../image/P4/praktikum4_3_result2.png)
+
+tambahan variabel diinisialisasi kemudian dimasukkan ke dalam variabel `list3` dengan kode program seperti pada gambar menyatakan bahwa tambahan variabel berupa NIM sudah ditambahkan menggunakan Spread Operators.
+
 **Langkah 4**
 
 Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
@@ -239,6 +303,22 @@ print(nav);
 
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Tunjukkan hasilnya jika variabel `promoActive` ketika `true` dan `false`.
 
+Akan terjadi error akibat promoActive yang tidak didefinisi. Perbaikan programnya adalah sebagai berikut:
+
+Kode Perbaikan:
+
+!['practice_4_4_code1'](../image/P4/praktikum4_4_code1.png)
+
+Dengan menambahkan inisialisasi untuk promoActive, kode akan berjalan dengan benar dengan hasil sebagai berikut:
+
+Hasil apabila `promActive = true`:
+
+!['practice_4_4_result1_true'](../image/P4/praktikum4_4_result1_true.png)
+
+Hasil apabila `promoActive = false`:
+
+!['practice_4_4_result1_false'](../image/P4/praktikum4_4_result1_false.png)
+
 **Langkah 5**
 
 Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
@@ -249,6 +329,20 @@ print(nav2);
 ```
 
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Tunjukkan hasilnya jika variabel login mempunyai kondisi lain.
+
+Akan terjadi error akibat variabel login yang tidak didefinisi. Perbaikan programnya adalah sebagai berikut:
+
+!['practice_4_5_code1'](../image/P4/praktikum4_5_code1.png)
+
+Dengan menambahkan inisialisasi untuk login, kode akan berjalan dengan benar dengan hasil sebagai berikut:
+
+Hasil apabila `login = 'Manager'`:
+
+!['practice_4_5_result1_true'](../image/P4/praktikum4_5_result1_true.png)
+
+Hasil apabila `login` bernilai lainnya:
+
+!['practice_4_5_result1_false'](../image/P4/praktikum4_5_result1_false.png)
 
 **Langkah 6**
 
@@ -263,6 +357,16 @@ print(listOfStrings);
 
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Jelaskan manfaat Collection For dan dokumentasikan hasilnya.
 
+Kode:
+
+!['practice_4_6_code1'](../image/P4/praktikum4_6_code1.png)
+
+Hasil:
+
+!['practice_4_6_result1'](../image/P4/praktikum4_6_result1.png)
+
+Tidak terjadi error. Kode tersebut digunakan untuk membuat sebuah list `listOfString` yang dibuat menggunakan list comprehension dengan menambah elemen `'#0` sebagai elemen pertama kemudian diikuti oleh iterasi perulangan yang menggunakan `listOfInts`. Kemudian `listOfString` dilakukan pengecekan menggunakan method `assert` dan apabila dicek sudah benar maka akan diprint.
+
 # Praktikum 5: Eksperimen Tipe Data Records
 
 **Langkah 1**
@@ -274,7 +378,10 @@ var record = ('first', a: 2, b: true, 'last');
 print(record)
 ```
 
-!['practice_4_1'](../image/P4/praktikum4_1.png)
+Kode:
+
+!['practice_5_1'](../image/P4/praktikum5_1.png)
+
 
 **Langkah 2**
 
